@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box; 
+}
+body {
+	background: url("websitebackgroundedark.jpg") no-repeat center top; background-size: 100vw 150vh;
+	
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+th, td {
+  background-color: #1B0B0B;
+}
+#th {
+	color: white;
+	align: center;
+}
+#th1 {
+	color: white;
+	align: center;
+}
+#foot{
+	color: white;
+}
+#h1{
+	color: white;
+	background-color:  rgba(#000000);
+}
+#container{
+	width: 800px;
+	margin: 0 auto;
+	
+}
+.center{
+	width: 175px;
+	height: 150px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	float: left;
+	margin: 0px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border: solid thick 5px black;
+
+
+}
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.center a:link{
+	color: orangered;
+	text-decoration: none;
+}
+.center a:hover{
+	font-size: 1.2em;
+}
+.left{
+	width:380px;
+	height: 200px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	float: left;
+	margin: 0px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border: solid thick 5px black;
+}
+.right{
+	width:380px;
+	height: 200px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	float: left;
+	margin: 0px 0px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border: solid thick 5px black;
+	}
+/*.center{
+	width:380px;
+	height: 200px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	float: center;
+	margin: 0px 0px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border: solid thick 6px black;
+	
+	
+}**/
+footer{
+	background-color:rgba(255,255,255,0.5);
+	clear: both;
+}

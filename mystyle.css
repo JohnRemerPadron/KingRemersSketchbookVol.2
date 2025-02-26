@@ -4,7 +4,7 @@
 	box-sizing: border-box; 
 }
 body {
-	background: url("websitebackgroundedark.jpg") no-repeat center top; background-size: 100vw 150vh;
+	background: url("websitebackgroundVgrey.jpg") no-repeat center top; background-size: 100vw 185vh;
 	
 }
 table, th, td {
@@ -42,7 +42,7 @@ th, td {
 }
 .center{
 	width: 175px;
-	height: 150px;
+	height: 200px;
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 20px;
 	float: left;
@@ -52,6 +52,11 @@ th, td {
 
 
 }
+
+.li{
+	align-content: center;
+}
+
 .luckiest-guy-regular {
   font-family: "Luckiest Guy", serif;
   font-weight: 400;
@@ -67,7 +72,7 @@ th, td {
 	font-size: 1.2em;
 }
 .left{
-	width:380px;
+	width:580px;
 	height: 200px;
 	background-color: rgba(255,255,255,0.5);
 	border-radius: 20px;
@@ -86,6 +91,10 @@ th, td {
 	padding: 10px 10px 10px 10px;
 	border: solid thick 5px black;
 	}
+.demo{
+	color:white;
+}
+
 /*.center{
 	width:380px;
 	height: 200px;

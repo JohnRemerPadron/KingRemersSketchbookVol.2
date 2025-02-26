@@ -4,7 +4,7 @@
 	box-sizing: border-box; 
 }
 body {
-	background: url("websitebackgroundVgrey.jpg") no-repeat center top; background-size: 100vw 185vh;
+	background: url("backgroundwhite.jpg") no-repeat center top; background-size: 100vw 185vh;
 	
 }
 table, th, td {
@@ -29,10 +29,10 @@ th, td {
 	align: center;
 }
 #foot{
-	color: white;
+	color: black;
 }
 #h1{
-	color: white;
+	color: black;
 	background-color:  rgba(#000000);
 }
 #container{
@@ -43,7 +43,7 @@ th, td {
 .center{
 	width: 175px;
 	height: 200px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(136,136,136,0.70);
 	border-radius: 20px;
 	float: left;
 	margin: 0px 10px 10px 10px;
@@ -74,17 +74,18 @@ th, td {
 .left{
 	width:580px;
 	height: 200px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(136,136,136,0.70);
 	border-radius: 20px;
 	float: left;
 	margin: 0px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	border: solid thick 5px black;
+	fony-color: white;
 }
 .right{
 	width:380px;
 	height: 200px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(136,136,136,0.70);
 	border-radius: 20px;
 	float: left;
 	margin: 0px 0px 10px 10px;
@@ -92,7 +93,7 @@ th, td {
 	border: solid thick 5px black;
 	}
 .demo{
-	color:white;
+	color:black;
 }
 
 /*.center{
@@ -108,6 +109,6 @@ th, td {
 	
 }**/
 footer{
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(136,136,136,0.70);
 	clear: both;
 }
